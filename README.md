@@ -1,1 +1,9 @@
-# Tuna-Age-Auto-Estimation
+# Enhancing machine learning-based age estimation for Pacific bluefin tuna: An approach with data imputation and image augmentation strategies
+
+## Abstrct
+This study explores the application of convolutional neural networks (CNN) for age estimation in Pacific Bluefin Tuna (Thunnus orientalis) using otolith images. The objective is to assess the feasibility of CNNs as a cost-effective tool for fish age determination, while evaluating the potential improvements with imputing missing values in the auxiliary dataset and image augmentation techniques. Additionally, a user-friendly web tool is developed to enable public access to the CNN model. Three trained models, Baseline, Otolith Mass Imputation (OMI), and Otolith Mass Imputation and Image Augmentation (OMIA), are compared and evaluated based on performance metrics. The results highlight the superiority of the OMIA model, achieving the highest accuracy (±1-acc = 72.81%) and lowest coefficient of variation (CV=7.38%). The model’s predicted age distribution closely resembles the ground truth, as well as the parameters of the von Bertalanffy growth function. Heat maps reveal that the attributes used by the model, particularly the opaque zones on the ventral arm of the otolith, mimic the age identification strategies employed by human experts. However, the study identifies challenges, including poor performance and negative impacts on predictions due to data imputation for age groups (ages 4–5 and 25–27) with limited samples. Despite these limitations, this study represents a significant step towards machine learning-based age estimation, serving as a valuable aid in traditional fish aging studies. The implications for management and future research directions are also discussed.
+
+## Citation
+Ma, T. H., Chang, Y. J., Shiao, J. C., Jin, C. B., & Kuo, Y. F. (2024). Enhancing machine learning-based age estimation for Pacific bluefin tuna: An approach with data imputation and image augmentation strategies. Fisheries Research, 274, 106992.
+
+For more details, please visit the [paper](https://authors.elsevier.com/c/1iqGkbiU21AGm) at Fisheries Research.
